@@ -12,7 +12,7 @@ String root = request.getContextPath();
 <body>
 <center>
 
-<font color = "red" size="15">서버에 문제가 있어 회원 가입이 불가능합니다. <br>
+<font color = "red" size="15">서버에 문제가 있어 회원 가입이 불가능합니다!!! <br>
 다시 시도해주세요!!<br>
 </font>
 <a href= "<%= root %>/login/login.jsp">로그인 </a>
