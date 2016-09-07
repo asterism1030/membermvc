@@ -1,0 +1,35 @@
+membermvc
+	-src
+	  -com.kitri.member.controller
+	   MemberController.java (Servlet : user)
+	  
+	  -com.kitri.member.model
+	   MemberDto.java
+	   MemberDetailDto.java
+	   ZipDto.java
+	   MemberService.java (I)
+	   MemberServiceImpl.java
+	   MemberDao.java (I)
+	   MemberDaoImpl.java
+	  
+	  -com.kitri.util
+	   Encoder.java
+	   UrlFormat.java
+	  
+	  -com.kitri.util.db
+	   DBConnection.java
+	   DBClose.java
+	
+	-webContent
+	  -css : style.css
+	  -join
+	   : idcheck.jsp
+	     zipsearch.jsp
+	     member.jsp
+	     success.jsp
+	     fail.jsp
+	  -login
+	   : login.jsp
+	   	 success.jsp
+	   	 fail.jsp
+	  -index.jsp

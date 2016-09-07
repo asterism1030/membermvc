@@ -1,0 +1,29 @@
+* Session & Cookie
+			저장 위치		형식			 노출
+  cookie  : client		txt(file)	 O
+  
+사용 ) Cookie c = new Cookie("name", "value");
+	  (클라이언트는 MarkupLang, 밖에 만들지 않는다...)
+	  c.setMaxAge(60*60*24*365);
+	  c.setPath("path");
+ 	 //이름값, 만료날짜 등.. 여러개 만ㄷ르어서 사용
+ 	 
+ 	 response.addCookie(c1);
+ 	 response.addCookie(c2);
+ 	 response.addCookie(c3);
+  
+  session : server		Object(memory) X
+  
+  HttpSession session = request.getSession([boolean]);
+  session.setAttribute("name", obj);
+  session.getAttribute("name");
+  session.removeAttribute("name");
+  
+ 차이 : 개발자 마음!
+ 참고 : 쿠키 -> 다른 컴퓨터 사용하면 데이터 날라감
+ 	   세션 -> 현재 컴퓨터에서 데이터 유지. 그러나 전원끄거나 브라우저를 끌때 날라감
+ 	   DB -> 영구 보관
+==========================
+  오늘본상품 (일반적으로 DB)
+  찜하기(위시리스트)
+  장바구니

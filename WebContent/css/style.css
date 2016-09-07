@@ -1,0 +1,9 @@
+body, table, th, td, p, div, span, a, select, input { font-size:9pt; color:#403F3F;  font-family: "±¼¸²", "µ¸¿ò", "Arial";}
+b { font-size:9pt; color:#403F3F;  font-family: "±¼¸²", "µ¸¿ò", "Arial";}
+td.td1 { background-color: #dfffff; border-bottom:solid 1px #c0c0c0; border-right:solid 1px #c0c0c0; text-align: left; }
+td.td2 { background-color: #f0ffff; border-bottom:solid 1px #c0c0c0; border-right:solid 1px #c0c0c0; text-align: left; }
+td.td3 { background-color: #eaeaea; border-bottom:solid 1px #c0c0c0; border-right:solid 1px #c0c0c0; text-align: left; }
+td.td4 { background-color: #f5f5f5; border-bottom:solid 1px #c0c0c0; border-right:solid 1px #c0c0c0; text-align: left; }
+table.print_tbl td { border-top:solid 1px #666666; border-left:solid 1px #666666; }
+table.no_print_tbl { border-bottom:solid 0px #666666; border-right:solid 0px #666666; }
+table.no_print_tbl td { border-top:solid 0px #666666; border-left:solid 0px #666666; }
