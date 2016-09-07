@@ -55,11 +55,11 @@ function joinmove(){
    </td>
 </tr>
 <tr>
-	<td class="td1">아이디</td>
+	<td class="td1">아이디 :</td>
 	<td class="td3"><input type="text" name="id" id="id" value="<%= id%>"></td>
 </tr>
 <tr>
-	<td class="td2">비밀번호</td>
+	<td class="td2">비밀번호 :</td>
 	<td class="td4"><input type="password" name="pass" id="pass"></td>
 </tr>
 <tr>
